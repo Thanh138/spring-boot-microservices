@@ -1,12 +1,18 @@
 package com.example.book_service.Dtos
 
-import java.time.LocalDateTime
+import com.example.book_service.Model.BookStatus
+import java.math.BigDecimal
 
 data class BookResponse(
     val id: Long,
     val title: String,
     val author: String,
-    val publishedDate: LocalDateTime,
-    val createdAt: LocalDateTime,
-    val updatedAt: LocalDateTime
+    val isbn: String,
+    val publishedYear: Int,
+    val description: String,
+    val totalCopies: Int,
+    val availableCopies: Int,
+    val price: BigDecimal,
+    val status: BookStatus,
+    val categoryIds: List<Long>
 )

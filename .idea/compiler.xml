@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CompilerConfiguration">
-    <bytecodeTargetLevel target="17" />
-  </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="spring-boot-microservice.api-gateway" options="-parameters" />
-      <module name="spring-boot-microservice.api-gateway.main" options="-parameters" />
-      <module name="spring-boot-microservice.api-gateway.test" options="-parameters" />
-      <module name="spring-boot-microservice.book-service" options="-parameters" />
-      <module name="spring-boot-microservice.book-service.main" options="-parameters" />
-      <module name="spring-boot-microservice.book-service.test" options="-parameters" />
-      <module name="spring-boot-microservice.config-server" options="-parameters" />
-      <module name="spring-boot-microservice.config-server.main" options="-parameters" />
-      <module name="spring-boot-microservice.config-server.test" options="-parameters" />
-      <module name="spring-boot-microservice.eureka-server" options="-parameters" />
-      <module name="spring-boot-microservice.eureka-server.main" options="-parameters" />
-      <module name="spring-boot-microservice.eureka-server.test" options="-parameters" />
+      <module name="api-gateway" options="-parameters" />
+      <module name="api-gateway.main" options="-parameters" />
+      <module name="api-gateway.test" options="-parameters" />
+      <module name="book-service" options="-parameters" />
+      <module name="book-service.main" options="-parameters" />
+      <module name="book-service.test" options="-parameters" />
+      <module name="category-service" options="-parameters" />
+      <module name="category-service.main" options="-parameters" />
+      <module name="category-service.test" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="config-server.main" options="-parameters" />
+      <module name="config-server.test" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="eureka-server.main" options="-parameters" />
+      <module name="eureka-server.test" options="-parameters" />
+      <module name="spring-boot-microservice.user-service" options="-parameters" />
+      <module name="spring-boot-microservice.user-service.main" options="-parameters" />
+      <module name="spring-boot-microservice.user-service.test" options="-parameters" />
     </option>
   </component>
 </project>
